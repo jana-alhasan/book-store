@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Store</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="left-header">
+          <div class="logo-cap">
+       
+          <a href="#" class="logo">B-W
+          <img class="circle" src="../images/circle.svg" alt="circle-logo">
+          <img class="book" src="../images/book.svg" alt="book-logo">
+          rld
+        </a>
+   
+          <div class="vertical-line"></div>
+          <p class="caption">We love <br> books</p>
+        </div>
+        <div class="search">
+          <input class="search-bar" type="search" placeholder="Type any book here">
+          <img class="Search-icon" src="../images/Search.svg " alt="Search-icon">
+        </div>
+        <div class="menu">
+          <a class="menu-items"> Privacy Policy</a>
+          <a class="menu-items"> Warranty</a>
+          <a class="menu-items"> Shopping</a>
+          <a class="menu-items"> Returns</a>
+        </div>
+          
+
+        </div>
+      
+        <div class="right-header">
+          <a>
+          <img src="../images/Download.svg " alt="Store-icon">
+        </a>
+          <div class="vertical-line"></div>
+          <a href="./fav.html">
+          <img src="../images/Heart.svg " alt="Fav-icon">
+        </a>
+          <div class="vertical-line"></div>
+          <a >
+          <img src="../images/User.svg " alt="User-icon">
+        </a>
+        </div>
+      
+      </div>
+    </header>
+
+    <section>
+      <div class="book-container">
+        <div class="images-to-skip">
+          <div class="book-item">
+            <img src="../images/book-slider/s3.png" class="book-item-img">
+          </div>
+          <div class="book-item">
+            <img src="../images/book-slider/s4.png" class="book-item-img">
+          </div>
+          <div class="book-item">
+            <img src="../images/book-slider/s2.png" class="book-item-img">
+          </div>
+          <div class="book-item">
+            <img src="../images/book-slider/s1.png" class="book-item-img">
+          </div>
+        </div>
+        <div class="slider">
+          <span class="close">&times;</span>
+          <img class="slider-img">
+        </div>
+        <div class="principle-image">
+        </div>
+        <div class="book-details">
+          <h1 class="title">Chain of Gold: The Last Hours #1</h1>
+          <p class="author">Cassandra Clare</p>
+          <div class="rating" id="rating">
+            <span class="star" data-rating="1">&star;</span>
+            <span class="star" data-rating="2">&star;</span>
+            <span class="star" data-rating="3">&star;</span>
+            <span class="star" data-rating="4">&star;</span>
+            <span class="star" data-rating="5">&star;</span>
+            <span id="rate-number">4</span>
+        </div>
+        <p class="price">$12.45</p>
+        <p class="description">From #1 New York Times and USA TODAY bestselling author Cassandra Clare comes the first novel in a brand-new trilogy where evil hides in plain sight and love cuts deeper than any blade. Chain of Gold is a Shadowhunters novel.</p>
+        <div class="minus-plus">
+          <img class="minus" src="../images/book-slider/minus.svg"> </img>
+          <span id="counter">1</span>
+          <img class="plus" src="../images/book-slider/plus.svg"></img>
+        </div>
+        <div class="add-cart-fav">
+        <button class="cart">Add to Cart</button>
+        <button class="favorite">Favorite</button>
+      </div>
+      <div class="more-info">
+        <div class="more-info-right">
+        <p class="info-title">Publisher : <span class="info-content" id="publisher"> Maragaret K. Books</span> </p>
+        <p class="info-title">Language : <span class="info-content" id="lang"> English</span> </p>
+        <p class="info-title">Print length : <span class="info-content" id="length"> 592 pages</span> </p>
+      </div>
+      <div class="more-info-left">
+        <p class="info-title">Publication date : <span class="info-content" id="date"> March 3, 2020</span> </p>
+        <p class="info-title">Reading age : <span class="info-content"> 14+ </span> </p>
+        <p class="info-title">Dimensions : <span class="info-content"> 6 x 1.8 x 9 inches</span> </p>
+      </div>
+      </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="collection-title">collection</h1>
+      <div class="book-container-js">    
+      </div>
+    </section>
+    <button id="backToTopBtn" class="back-to-top" title="Go to top">&#x2191;</button>
+    <footer id="footer">B-World || We Love Books</footer>
+    <script src="../js/script.js" type="module"></script>
+    <!-- <script src="../js/fav.js" type="module"></script> -->
+    <script src="../js/slider.js"></script>
+  </body>
+</html>
